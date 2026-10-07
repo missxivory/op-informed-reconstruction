@@ -1,0 +1,22 @@
+name: mamba2_c121
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+
+  - pip:
+      - astra-toolbox
+
+      - numpy
+      - scipy
+      - matplotlib
+      - h5py
+      - tqdm
+      - wget
+      - pytorch-msssim
+
+      - transformers
+      - einops
